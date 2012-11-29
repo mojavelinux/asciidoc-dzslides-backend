@@ -1,0 +1,33 @@
+= dzslides backend for AsciiDoc
+
+A backend that renders the AsciiDoc source as a dzslides presentation.
+dzslides is modern presentation framework based on HTML5 and CSS3.
+
+This backend is designed to work specifically with the following fork of the
+dzslides project: https://github.com/mojavelinux/dzslides.
+
+== Installation
+
+To install the dzslides plugin download
+https://github.com/mojavelinux/asciidoc-dzslides-backend/dzslides.zip[dzslides.zip]
+and install it using the AsciiDoc (you will need AsciiDoc version 8.6.6 or
+newer):
+
+----
+asciidoc --backend install dzslides.zip
+----
+
+Next, make a symlink to dzslides in that folder.
+
+----
+cd ~/.asciidoc/backends/dzslides
+ln -s /path/to/dzslides .
+----
+
+If you enable the linkcss attribute, then the symlink should be added in the
+same directory as the presentation.
+
+== Usage
+
+Use the 'dzslides' backend as you would the built-in backends.
+
