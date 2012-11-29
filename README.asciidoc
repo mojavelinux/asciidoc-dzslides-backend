@@ -9,7 +9,7 @@ dzslides project: https://github.com/mojavelinux/dzslides.
 == Installation
 
 To install the dzslides plugin download
-https://github.com/mojavelinux/asciidoc-dzslides-backend/dzslides.zip[dzslides.zip]
+https://github.com/downloads/mojavelinux/asciidoc-dzslides-backend/dzslides.zip[dzslides.zip]
 and install it using the AsciiDoc (you will need AsciiDoc version 8.6.6 or
 newer):
 
