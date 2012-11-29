@@ -1,6 +1,6 @@
 = dzslides backend for AsciiDoc
 
-A backend that renders the AsciiDoc source as a dzslides presentation.
+An AsciiDoc backend that renders the AsciiDoc source as a dzslides presentation.
 dzslides is modern presentation framework based on HTML5 and CSS3.
 
 This backend is designed to work specifically with the following fork of the
