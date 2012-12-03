@@ -31,3 +31,9 @@ same directory as the presentation.
 
 Use the 'dzslides' backend as you would the built-in backends.
 
+== Example
+
+As you would expect, the rendered output looks just like any other dzslides presentation.
+
+Refer to http://mojavelinux.github.com/decks[these presentations] to see examples of the rendered output and the AsciiDoc source that produced them using this backend.
+
