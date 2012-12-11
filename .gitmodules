@@ -1,0 +1,3 @@
+[submodule "dzslides"]
+	path = dzslides
+	url = git://github.com/mojavelinux/dzslides.git
