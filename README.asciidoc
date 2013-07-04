@@ -8,20 +8,22 @@ dzslides project: https://github.com/mojavelinux/dzslides.
 
 == Installation
 
-To install the dzslides backend, download
-https://github.com/downloads/mojavelinux/asciidoc-dzslides-backend/dzslides.zip[dzslides.zip]
-and install it using the asciidoc command (you will need AsciiDoc version 8.6.6 or
-newer):
+To install the dzslides backend, install it into asciidoc backends through git
+(you will need AsciiDoc version 8.6.6 or newer):
 
 ----
-asciidoc --backend install dzslides.zip
+mkdir -p ~/.asciidoc/backends/
+cd ~/.asciidoc/backends/
+git clone https://github.com/mojavelinux/asciidoc-dzslides-backend.git dzslides
 ----
 
-Next, make a symlink to dzslides in that folder.
+Next, checkout the mojavelinux/dzslides repo inside some directory out of current git tree (ie: `~/opt/`):
 
 ----
-cd ~/.asciidoc/backends/dzslides
-ln -s /path/to/dzslides .
+cd ~/opt/
+git clone https://github.com/mojavelinux/dzslides.git
+cd ~/.asciidoc/backends/
+ln -s ~/opt/dzslides .
 ----
 
 If you enable the linkcss attribute, then the symlink should be added in the
