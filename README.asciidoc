@@ -4,6 +4,9 @@ Dan Allen
 An AsciiDoc backend that renders the AsciiDoc source as a dzslides presentation.
 dzslides is modern presentation framework based on HTML5 and CSS3.
 
+WARNING: The dzslides backend for AsciiDoc Python is no longer under active development.
+It has been superceded by the dzslides backend for Asciidoctor, available in the https://github.com/asciidoctor/asciidoctor-backends/blob/master/slim/dzslides/README.adoc[Asciidoctor backends] repository.
+
 This backend is designed to work specifically with a fork of the dzslides project at https://github.com/mojavelinux/dzslides.
 
 == Installation
