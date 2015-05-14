@@ -37,4 +37,4 @@ Use the 'dzslides' backend as you would the built-in backends.
 
 As you would expect, the rendered output looks just like any other dzslides presentation.
 
-Refer to http://mojavelinux.github.com/decks[these presentations] to see examples of the rendered output and the AsciiDoc source that produced them using this backend.
+Refer to http://mojavelinux.github.io/decks/asciidoc-with-pleasure/rwx2012/index.html[this presentation] about AsciiDoc to see an example of the output produced by this backend (and the https://github.com/mojavelinux/decks/blob/master/asciidoc-with-pleasure/slides.asciidoc[AsciiDoc source] from which it was generated).
