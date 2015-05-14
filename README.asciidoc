@@ -1,15 +1,15 @@
-= dzslides backend for AsciiDoc
+= dzslides backend for AsciiDoc Python
+Dan Allen
 
 An AsciiDoc backend that renders the AsciiDoc source as a dzslides presentation.
 dzslides is modern presentation framework based on HTML5 and CSS3.
 
-This backend is designed to work specifically with the following fork of the
-dzslides project: https://github.com/mojavelinux/dzslides.
+This backend is designed to work specifically with a fork of the dzslides project at https://github.com/mojavelinux/dzslides.
 
 == Installation
 
 To install the dzslides backend, install it into asciidoc backends through git
-(you will need AsciiDoc version 8.6.6 or newer):
+(you'll need AsciiDoc version 8.6.6 or newer):
 
 ----
 mkdir -p ~/.asciidoc/backends/
@@ -17,17 +17,14 @@ cd ~/.asciidoc/backends/
 git clone https://github.com/mojavelinux/asciidoc-dzslides-backend.git dzslides
 ----
 
-Next, checkout the mojavelinux/dzslides repo inside some directory out of current git tree (ie: `~/opt/`):
+Next, descend into the dzslides backend and clone dzslides itself (from the mojavelinux/dzsldies repo):
 
 ----
-cd ~/opt/
+cd dzslides
 git clone https://github.com/mojavelinux/dzslides.git
-cd ~/.asciidoc/backends/
-ln -s ~/opt/dzslides .
 ----
 
-If you enable the linkcss attribute, then the symlink should be added in the
-same directory as the presentation.
+IMPORTANT: If you enable the `linkcss` attribute, you'll also need to checkout dzslides in the same directory as the presentation.
 
 == Usage
 
@@ -38,4 +35,3 @@ Use the 'dzslides' backend as you would the built-in backends.
 As you would expect, the rendered output looks just like any other dzslides presentation.
 
 Refer to http://mojavelinux.github.com/decks[these presentations] to see examples of the rendered output and the AsciiDoc source that produced them using this backend.
-
